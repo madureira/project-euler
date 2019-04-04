@@ -12,5 +12,7 @@ int main()
         }
     }
 
-    return sum;
+    std::cout << sum << std::endl;
+
+    return 0;
 }
