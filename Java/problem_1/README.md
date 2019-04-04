@@ -7,9 +7,9 @@ Find the sum of all the multiples of 3 or 5 below 1000.
 ## Execution
 
 ```sh
-g++ algorithm.cpp -o algorithm
+javac Algorithm.java
 ```
 
 ```sh
-./algorithm
+java -cp . Algorithm
 ```
