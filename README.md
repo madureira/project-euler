@@ -28,3 +28,7 @@ The problems range in difficulty and for many the experience is inductive chain 
 ### [Java](/Java/)
 - [Problem 1](/Java/problem_1/)
 - [Problem 2](/Java/problem_2/)
+
+### [Lua](/Lua/)
+- [Problem 1](/Lua/problem_1/)
+- [Problem 2](/Lua/problem_2/)
