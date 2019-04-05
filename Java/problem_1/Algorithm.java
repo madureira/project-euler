@@ -1,4 +1,5 @@
 class Algorithm {
+
     public static void main(String[] args) {
         int sum = 0;
 
@@ -10,4 +11,5 @@ class Algorithm {
 
         System.out.println(sum);
     }
+
 }

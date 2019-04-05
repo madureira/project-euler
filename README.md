@@ -23,6 +23,8 @@ The problems range in difficulty and for many the experience is inductive chain 
 
 ### [C++](/C++/)
 - [Problem 1](/C++/problem_1/)
+- [Problem 2](/C++/problem_2/)
 
 ### [Java](/Java/)
 - [Problem 1](/Java/problem_1/)
+- [Problem 2](/Java/problem_2/)
