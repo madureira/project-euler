@@ -6,7 +6,7 @@ If we list all the natural numbers below 10 that are multiples of 3 or 5, we get
 
 Find the sum of all the multiples of 3 or 5 below 1000.
 
-### Run
+### Run:
 
 ```sh
 python algorithm.py
@@ -15,6 +15,6 @@ python algorithm.py
 ### Answer:
 `233168`
 
-### Equation
+### Equation:
 
 ![](/.github/equations/problem_1/1.svg)
