@@ -1,6 +1,7 @@
 # project-euler
 
-[![c++](https://img.shields.io/badge/C++-11-blue.svg)](https://isocpp.org/wiki/faq/cpp11)
+[![C](https://img.shields.io/badge/C-C99-orange.svg)](https://bit.ly/1eSKXTB)
+[![C++](https://img.shields.io/badge/C++-11-blue.svg)](https://isocpp.org/wiki/faq/cpp11)
 [![Java](https://img.shields.io/badge/Java-8-red.svg)](https://www.oracle.com/java/)
 [![Lua](https://img.shields.io/badge/Lua-5-blueviolet.svg)](https://www.lua.org/)
 [![Python](https://img.shields.io/badge/Python-3-green.svg)](https://www.python.org/)
@@ -28,6 +29,11 @@ The intended audience include students for whom the basic curriculum is not feed
 The problems range in difficulty and for many the experience is inductive chain learning. That is, by solving one problem it will expose you to a new concept that allows you to undertake a previously inaccessible problem. So the determined participant will slowly but surely work his/her way through every problem.
 
 ## Languages
+
+### [C](/C/)
+- [Problem 1](/C/problem_1/)
+- [Problem 2](/C/problem_2/)
+- [Problem 3](/C/problem_3/)
 
 ### [C++](/C++/)
 - [Problem 1](/C++/problem_1/)
