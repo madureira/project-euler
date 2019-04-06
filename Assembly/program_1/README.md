@@ -10,7 +10,7 @@ Find the sum of all the multiples of 3 or 5 below 1000.
 
 #### Linux
 ```sh
-nasm -felf64 algorithm.asm -o algorithm.o && ld algorithm.o
+nasm -f elf algorithm.asm && ld -m elf_i386 algorithm.o -o algorithm && rm algorithm.o
 ```
 
 ```sh
