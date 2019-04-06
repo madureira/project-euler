@@ -16,7 +16,7 @@ long long maxPrimeFactors(long long n)
         while (n % i == 0)
         {
             maxPrime = i;
-            n = n / i;
+            n /= i;
         }
     }
 
@@ -30,9 +30,9 @@ long long maxPrimeFactors(long long n)
 
 int main()
 {
-    long long n = 600851475143;
+    long long n = maxPrimeFactors(600851475143);
 
-    std::cout << maxPrimeFactors(n) << std::endl;
+    std::cout << n << std::endl;
 
     return 0;
 }
