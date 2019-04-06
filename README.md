@@ -45,6 +45,7 @@ The problems range in difficulty and for many the experience is inductive chain 
 ### [Python](/Python/)
 - [Problem 1](/Python/problem_1/)
 - [Problem 2](/Python/problem_2/)
+- [Problem 3](/Python/problem_3/)
 
 ### [Javascript](/Javascript/)
 - [Problem 1](/Javascript/problem_1/)
