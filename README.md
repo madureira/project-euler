@@ -31,10 +31,12 @@ The problems range in difficulty and for many the experience is inductive chain 
 ### [C++](/C++/)
 - [Problem 1](/C++/problem_1/)
 - [Problem 2](/C++/problem_2/)
+- [Problem 3](/C++/problem_3/)
 
 ### [Java](/Java/)
 - [Problem 1](/Java/problem_1/)
 - [Problem 2](/Java/problem_2/)
+- [Problem 3](/Java/problem_3/)
 
 ### [Lua](/Lua/)
 - [Problem 1](/Lua/problem_1/)
