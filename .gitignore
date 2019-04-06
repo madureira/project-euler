@@ -2,6 +2,7 @@
 *.o
 *.obj
 *.class
+*.pyc
 
 # Executables
 *.exe
