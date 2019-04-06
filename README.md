@@ -1,5 +1,6 @@
 # project-euler
 
+[![Assembly](https://img.shields.io/badge/Assembly-x86-lightgray.svg)](https://www.nasm.us/)
 [![C](https://img.shields.io/badge/C-C99-orange.svg)](https://bit.ly/1eSKXTB)
 [![C++](https://img.shields.io/badge/C++-11-blue.svg)](https://isocpp.org/wiki/faq/cpp11)
 [![Java](https://img.shields.io/badge/Java-8-red.svg)](https://www.oracle.com/java/)
