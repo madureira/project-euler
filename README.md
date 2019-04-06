@@ -41,6 +41,7 @@ The problems range in difficulty and for many the experience is inductive chain 
 ### [Lua](/Lua/)
 - [Problem 1](/Lua/problem_1/)
 - [Problem 2](/Lua/problem_2/)
+- [Problem 3](/Lua/problem_3/)
 
 ### [Python](/Python/)
 - [Problem 1](/Python/problem_1/)
