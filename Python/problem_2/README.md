@@ -11,9 +11,5 @@ By considering the terms in the Fibonacci sequence whose values do not exceed fo
 ### Execution
 
 ```sh
-g++ algorithm.cpp -o algorithm
-```
-
-```sh
-./algorithm
+python algorithm.py
 ```
