@@ -11,3 +11,10 @@ Find the sum of all the multiples of 3 or 5 below 1000.
 ```sh
 php algorithm.php
 ```
+
+### Answer:
+`233168`
+
+### Equation
+
+![](/.github/equations/problem_1/1.svg)

@@ -15,3 +15,10 @@ javac Algorithm.java
 ```sh
 java -cp . Algorithm
 ```
+
+### Answer:
+`233168`
+
+### Equation
+
+![](/.github/equations/problem_1/1.svg)

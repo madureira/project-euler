@@ -39,22 +39,22 @@ The problems range in difficulty and for many the experience is inductive chain 
 - [Problem 2](/Java/problem_2/)
 - [Problem 3](/Java/problem_3/)
 
-### [Lua](/Lua/)
-- [Problem 1](/Lua/problem_1/)
-- [Problem 2](/Lua/problem_2/)
-- [Problem 3](/Lua/problem_3/)
-
-### [Python](/Python/)
-- [Problem 1](/Python/problem_1/)
-- [Problem 2](/Python/problem_2/)
-- [Problem 3](/Python/problem_3/)
-
 ### [Javascript](/Javascript/)
 - [Problem 1](/Javascript/problem_1/)
 - [Problem 2](/Javascript/problem_2/)
 - [Problem 3](/Javascript/problem_3/)
 
+### [Lua](/Lua/)
+- [Problem 1](/Lua/problem_1/)
+- [Problem 2](/Lua/problem_2/)
+- [Problem 3](/Lua/problem_3/)
+
 ### [PHP](/PHP/)
 - [Problem 1](/PHP/problem_1/)
 - [Problem 2](/PHP/problem_2/)
 - [Problem 3](/PHP/problem_3/)
+
+### [Python](/Python/)
+- [Problem 1](/Python/problem_1/)
+- [Problem 2](/Python/problem_2/)
+- [Problem 3](/Python/problem_3/)

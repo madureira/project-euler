@@ -15,3 +15,10 @@ g++ algorithm.cpp -o algorithm
 ```sh
 ./algorithm
 ```
+
+### Answer:
+`233168`
+
+### Equation
+
+![](/.github/equations/problem_1/1.svg)
