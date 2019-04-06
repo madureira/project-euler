@@ -33,6 +33,8 @@ The problems range in difficulty and for many the experience is inductive chain 
 
 ### [Assembly](/Assembly/)
 - [Problem 1](/Assembly/problem_1/)
+- [Problem 2](/Assembly/problem_2/)
+- [Problem 3](/Assembly/problem_3/)
 
 ### [C](/C/)
 - [Problem 1](/C/problem_1/)
