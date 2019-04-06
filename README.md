@@ -1,4 +1,11 @@
 # project-euler
+
+[![c++](https://img.shields.io/badge/C++-11-blue.svg)](https://isocpp.org/wiki/faq/cpp11)
+[![Java](https://img.shields.io/badge/Java-8-red.svg)](https://www.oracle.com/java/)
+[![Lua](https://img.shields.io/badge/Lua-5-blueviolet.svg)](https://www.lua.org/)
+[![Python](https://img.shields.io/badge/Python-3-green.svg)](https://www.python.org/)
+[![Node](https://img.shields.io/badge/Nodejs-11-yellow.svg)](https://nodejs.org/en/)
+
 Project Euler exists to encourage, challenge, and develop the skills and enjoyment of anyone with an interest in the fascinating world of mathematics.
 
 ## About Project Euler
@@ -21,18 +28,22 @@ The problems range in difficulty and for many the experience is inductive chain 
 
 ## Languages
 
-### [C++ 11](/C++/)
+### [C++](/C++/)
 - [Problem 1](/C++/problem_1/)
 - [Problem 2](/C++/problem_2/)
 
-### [Java 8](/Java/)
+### [Java](/Java/)
 - [Problem 1](/Java/problem_1/)
 - [Problem 2](/Java/problem_2/)
 
-### [Lua 5](/Lua/)
+### [Lua](/Lua/)
 - [Problem 1](/Lua/problem_1/)
 - [Problem 2](/Lua/problem_2/)
 
-### [Python 3](/Python/)
+### [Python](/Python/)
 - [Problem 1](/Python/problem_1/)
 - [Problem 2](/Python/problem_2/)
+
+### [Javascript](/Javascript/)
+- [Problem 1](/Javascript/problem_1/)
+- [Problem 2](/Javascript/problem_2/)
