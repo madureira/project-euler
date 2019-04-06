@@ -1,15 +1,19 @@
 <?php
 
+function sum($n, $k) {
+  $d = floor($n / $k);
+  return $k * (($d) * ($d + 1) / 2);
+}
+
 function main() {
-    $sum = 0;
+    $n = 999;
+    $s3 = sum($n, 3);
+    $s5 = sum($n, 5);
+    $s15 = sum($n, 15);
 
-    for($i = 0; $i < 1000; ++$i) {
-        if (($i % 3 == 0) || ($i % 5 == 0)) {
-            $sum += $i;
-        }
-    }
+    $s = $s3 + $s5 - $s15;
 
-    echo $sum . "\n";
+    echo $s . "\n";
 }
 
 main();

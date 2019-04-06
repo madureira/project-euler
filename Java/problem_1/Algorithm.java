@@ -1,15 +1,18 @@
 class Algorithm {
 
+    public static int sum(int n, int k) {
+        return k * ((n / k) * (n / k + 1) / 2);
+    }
+
     public static void main(String[] args) {
-        int sum = 0;
+        int n = 999;
+        int s3 = sum(n, 3);
+        int s5 = sum(n, 5);
+        int s15 = sum(n, 15);
 
-        for(int i = 0; i < 1000; ++i) {
-            if ((i % 3 == 0) || (i % 5 == 0)) {
-                sum += i;
-            }
-        }
+        int s = s3 + s5 - s15;
 
-        System.out.println(sum);
+        System.out.println(s);
     }
 
 }

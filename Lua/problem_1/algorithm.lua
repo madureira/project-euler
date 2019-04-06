@@ -1,13 +1,17 @@
+function sum(n, k)
+  d = math.floor(n / k)
+  return math.floor(k * (d * (d + 1)) / 2)
+end
+
 function main()
-  local sum = 0
+  local n = 999
+  local s3 = sum(n, 3)
+  local s5 = sum(n, 5)
+  local s15 = sum(n, 15)
+  
+  local s = s3 + s5 - s15
 
-  for i = 0, 999, 1 do
-    if i % 3 == 0 or i % 5 == 0 then
-      sum = sum + i
-    end
-  end
-
-  print(sum)
+  print(s)
 end
 
 main()
