@@ -1,4 +1,4 @@
-function main() {
+(function() {
   let sum = 0;
 
   for(let i = 0; i < 1000; ++i) {
@@ -8,6 +8,4 @@ function main() {
   }
 
   console.log(sum);
-}
-
-main();
+})();

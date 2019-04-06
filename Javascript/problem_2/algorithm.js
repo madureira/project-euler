@@ -12,10 +12,7 @@ function evenFib(previous, term, sum) {
   return evenFib(term, total, sum);
 }
 
-function main() {
+(function() {
   const sum = evenFib(1, 1, 0);
-
   console.log(sum);
-}
-
-main();
+})();

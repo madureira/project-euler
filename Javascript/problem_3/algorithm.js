@@ -20,9 +20,7 @@ function maxPrimeFactors(n) {
   return maxPrime;
 }
 
-function main() {
+(function() {
   const n = maxPrimeFactors(600851475143);
   console.log(n);
-}
-
-main();
+})();
