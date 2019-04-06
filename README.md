@@ -5,6 +5,7 @@
 [![Lua](https://img.shields.io/badge/Lua-5-blueviolet.svg)](https://www.lua.org/)
 [![Python](https://img.shields.io/badge/Python-3-green.svg)](https://www.python.org/)
 [![Node](https://img.shields.io/badge/Nodejs-11-yellow.svg)](https://nodejs.org/en/)
+[![PHP](https://img.shields.io/badge/PHP-7-purple.svg)](https://www.php.net/)
 
 Project Euler exists to encourage, challenge, and develop the skills and enjoyment of anyone with an interest in the fascinating world of mathematics.
 
@@ -52,3 +53,8 @@ The problems range in difficulty and for many the experience is inductive chain 
 - [Problem 1](/Javascript/problem_1/)
 - [Problem 2](/Javascript/problem_2/)
 - [Problem 3](/Javascript/problem_3/)
+
+### [PHP](/PHP/)
+- [Problem 1](/PHP/problem_1/)
+- [Problem 2](/PHP/problem_2/)
+- [Problem 3](/PHP/problem_3/)
