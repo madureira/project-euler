@@ -5,6 +5,7 @@
 *.pyc
 
 # Executables
+algorithm
 *.exe
 *.out
 *.app
