@@ -42,4 +42,4 @@ We can use the *reverse fibonacci formula* to find n the last index:
 
 Then we can deduct the index of the last even number **3k**:
 
-![](/.github/equations/problem_2/5.svg
+![](/.github/equations/problem_2/5.svg)
