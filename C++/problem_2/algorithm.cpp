@@ -1,27 +1,36 @@
 #include <iostream>
+#include <math.h>
 
-int evenFib(int previous, int term, int sum)
+static double PHI = (1 + sqrt(5)) / 2;
+static double PSI = (1 - sqrt(5)) / 2;
+
+int reverseFib(int fn)
 {
-    int total = previous + term;
+    return floor(log((fn * sqrt(5) + sqrt(5 * pow(fn, 2) - 4)) / 2) / log(PHI));
+}
 
-    if (total > 4000000)
-    {
-        return sum;
-    }
+int getK(int n)
+{
+    return floor(reverseFib(n) / 3);
+}
 
-    if (total % 2 == 0)
-    {
-        sum += total;
-    }
+int sumEven(int k)
+{
+    double phi3 = pow(PHI, 3);
+    double psi3 = pow(PSI, 3);
 
-    return evenFib(term, total, sum);
+    return (1 / sqrt(5)) * (
+        phi3 * ((1 - pow(phi3, k)) / (1 - phi3)) - psi3 * ((1 - pow(psi3, k)) / (1 - psi3))
+    );
 }
 
 int main()
 {
-    int sum = evenFib(1, 1, 0);
+    int N = 4000000;
+    int k = getK(N);
+    int S = sumEven(k);
 
-    std::cout << sum << std::endl;
+    std::cout << S << std::endl;
 
     return 0;
 }
