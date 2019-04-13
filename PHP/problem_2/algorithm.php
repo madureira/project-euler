@@ -1,22 +1,31 @@
 <?php
 
-function evenFib($previous, $term, $sum) {
-    $total = $previous + $term;
+define("PHI", (1 + sqrt(5)) / 2);
+define("PSI", (1 - sqrt(5)) / 2);
 
-    if ($total > 4000000) {
-        return $sum;
-    }
+function reverseFib($fn) {
+    return floor(log(($fn * sqrt(5) + sqrt(5 * pow($fn, 2) - 4)) / 2) / log(PHI));
+}
 
-    if ($total % 2 == 0) {
-        $sum += $total;
-    }
+function getK($n) {
+    return floor(reverseFib($n) / 3);
+}
 
-    return evenFib($term, $total, $sum);
+function sumEven($k) {
+    $phi3 = pow(PHI, 3);
+    $psi3 = pow(PSI, 3);
+
+    return (1 / sqrt(5)) * (
+        $phi3 * ((1 - pow($phi3, $k)) / (1 - $phi3)) - $psi3 * ((1 - pow($psi3, $k)) / (1 - $psi3))
+    );
 }
 
 function main() {
-    $sum = evenFib(1, 1, 0);
-    echo $sum  . "\n";
+    $N = 4000000;
+    $k = getK($N);
+    $S = sumEven($k);
+
+    echo $S . "\n";
 }
 
 main();
