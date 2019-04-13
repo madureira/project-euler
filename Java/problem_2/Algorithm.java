@@ -4,7 +4,7 @@ import static java.lang.Math.log;
 import static java.lang.Math.pow;
 
 class Algorithm {
-  
+
     private static final double PHI = (1 + sqrt(5)) / 2;
     private static final double PSI = (1 - sqrt(5)) / 2;
 
