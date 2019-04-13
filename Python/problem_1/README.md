@@ -15,6 +15,6 @@ python algorithm.py
 ### Answer:
 `233168`
 
-### Equation:
+### Math equation:
 
 ![](/.github/equations/problem_1/1.svg)
